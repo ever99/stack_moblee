@@ -1,0 +1,157 @@
+.td_filter
+{
+    background-color: #E6E6E6; 
+    width: 100%;
+    border: solid 1px #696969;
+}
+
+.td_title
+{
+    padding-top: 10px; 
+    padding-left: 10px; 
+    font-size: 1.4em; 
+    text-align: center;
+    font-style: italic;
+    color: #696969;
+}
+
+.td_label
+{
+    padding-top: 10px; 
+    padding-left: 10px; 
+    font-size: 12px; 
+    color: #696969;
+}
+
+.td_field
+{
+    padding-left: 10px; 
+    font-size: 12px; 
+    color: #696969;
+}
+
+.btn_stack
+{
+    width: 120px;
+    height: 20px;
+    font-size: 12px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+#btn_persistir_dados
+{
+
+    background-color: #0099D7;
+}
+
+#btn_buscar
+{
+    background-color: #8AC34E;
+    width: 80px;
+}
+
+#btn_persistir_dados:hover, 
+#btn_buscar:hover
+{
+    background-color: #7E7E7E;
+}
+
+.gif_loading
+{
+    position: absolute;
+    z-index: 5002;
+    width: 50px;
+    left: 75px;
+}
+
+.div_loading
+{
+    position: absolute;
+    z-index: 5001;
+    height: 75px;
+    width: 200px;
+    color: #3C6684;
+}
+
+.div_trans
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.class_datagrid
+{
+    border: solid 1px #696969;
+}
+
+.class_cabecalho_datagrid
+{
+    color: #696969;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    background-color: #E6E6E6; 
+}
+
+.class_cabecalho_grid
+{
+    color: #696969;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    background-color: #E6E6E6; 
+}
+
+.class_tr_grid_dado_1
+{
+    cursor: pointer;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    background-color: #E6E6E6;
+}
+
+.class_tr_grid_dado_2
+{
+    cursor: pointer;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
+.class_tr_grid_dado_2:hover
+{
+    background-color: #D6E5D8;
+}
+
+.class_tr_grid_dado_1:hover
+{
+    background-color: #D6E5D8;
+}
+
+.td_result_grid
+{
+    color: #696969; 
+    padding-left:5px; 
+    padding-right:5px; 
+    height:22px; 
+    border-bottom: 1px solid #A9A9A9; 
+    border-left: 1px solid #A9A9A9;
+}
+.td_title_grid
+{
+    border-bottom: 1px solid #A9A9A9;  
+    border-left: 1px solid #A9A9A9;
+    color: #696969; 
+    height:22px; 
+}
